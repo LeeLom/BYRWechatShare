@@ -9,7 +9,7 @@ s.homepage     = 'https://github.com/LeeLom/BYRWechatShare'
 s.license      = 'MIT'
 s.authors      = {'LeeLom' => 'buptleelom@163.com'}
 s.platform     = :ios, '10.3'
-s.source       = {:git => 'https://github.com/CoderPeak/CFDropDownMenuView.git' , :tag => s.version.to_s}
+s.source       = {:git => 'https://github.com/LeeLom/BYRWechatShare.git' , :tag => s.version.to_s}
 s.source_files = 'BYRWechatShare/BYRWechatShare/Lib/*.{h,m}'
 s.resource     = 'BYRWechatShare/BYRWechatShare/OpenSDK1.7.9_NoPay'
 s.requires_arc = true
