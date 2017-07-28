@@ -26,9 +26,9 @@
 		E625C7FE1F2ADF4600639B6A /* BYRWechatShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYRWechatShare.h; sourceTree = "<group>"; };
 		E625C7FF1F2ADF4600639B6A /* BYRWechatShare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYRWechatShare.m; sourceTree = "<group>"; };
 		E625C8011F2ADF4600639B6A /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
-		E625C8021F2ADF4600639B6A /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
-		E625C8031F2ADF4600639B6A /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
-		E625C8041F2ADF4600639B6A /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		E625C80A1F2AF8EB00639B6A /* WechatAuthSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		E625C80B1F2AF8EB00639B6A /* WXApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		E625C80C1F2AF8EB00639B6A /* WXApiObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
 		E66D2C3E1F2AD52500DE8C93 /* BYRWechatShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BYRWechatShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E66D2C421F2AD52500DE8C93 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E66D2C441F2AD52500DE8C93 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -75,6 +75,9 @@
 		E625C7FD1F2ADF4600639B6A /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				E625C80A1F2AF8EB00639B6A /* WechatAuthSDK.h */,
+				E625C80B1F2AF8EB00639B6A /* WXApi.h */,
+				E625C80C1F2AF8EB00639B6A /* WXApiObject.h */,
 				E625C7FE1F2ADF4600639B6A /* BYRWechatShare.h */,
 				E625C7FF1F2ADF4600639B6A /* BYRWechatShare.m */,
 			);
@@ -85,9 +88,6 @@
 			isa = PBXGroup;
 			children = (
 				E625C8011F2ADF4600639B6A /* libWeChatSDK.a */,
-				E625C8021F2ADF4600639B6A /* WechatAuthSDK.h */,
-				E625C8031F2ADF4600639B6A /* WXApi.h */,
-				E625C8041F2ADF4600639B6A /* WXApiObject.h */,
 			);
 			path = OpenSDK1.7.9_NoPay;
 			sourceTree = "<group>";
@@ -347,6 +347,7 @@
 					"$(PROJECT_DIR)/BYRWechatShare/OpenSDK1.7.9_NoPay",
 					"$(PROJECT_DIR)/BYRWechatShare/BYRWechatShare/OpenSDK1.7.9_NoPay",
 				);
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = bupt.leelom.BYRWechatShare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -363,6 +364,7 @@
 					"$(PROJECT_DIR)/BYRWechatShare/OpenSDK1.7.9_NoPay",
 					"$(PROJECT_DIR)/BYRWechatShare/BYRWechatShare/OpenSDK1.7.9_NoPay",
 				);
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = bupt.leelom.BYRWechatShare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
