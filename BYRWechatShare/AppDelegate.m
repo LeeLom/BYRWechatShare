@@ -19,7 +19,6 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // 注册微信
     [WXApi registerApp:@"wx123456778"];
-    
     return YES;
 }
 

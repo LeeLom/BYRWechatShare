@@ -7,22 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E625C8051F2ADF4600639B6A /* BYRWechatShare.m in Sources */ = {isa = PBXBuildFile; fileRef = E625C7FF1F2ADF4600639B6A /* BYRWechatShare.m */; };
+		E625C8061F2ADF4600639B6A /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E625C8011F2ADF4600639B6A /* libWeChatSDK.a */; };
 		E66D2C431F2AD52500DE8C93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E66D2C421F2AD52500DE8C93 /* main.m */; };
 		E66D2C461F2AD52500DE8C93 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E66D2C451F2AD52500DE8C93 /* AppDelegate.m */; };
 		E66D2C491F2AD52500DE8C93 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E66D2C481F2AD52500DE8C93 /* ViewController.m */; };
 		E66D2C4C1F2AD52500DE8C93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E66D2C4A1F2AD52500DE8C93 /* Main.storyboard */; };
 		E66D2C4E1F2AD52500DE8C93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E66D2C4D1F2AD52500DE8C93 /* Assets.xcassets */; };
 		E66D2C511F2AD52500DE8C93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E66D2C4F1F2AD52500DE8C93 /* LaunchScreen.storyboard */; };
-		E66D2C611F2AD5C400DE8C93 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E66D2C5C1F2AD5C400DE8C93 /* libWeChatSDK.a */; };
 		E66D2C651F2AD68A00DE8C93 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E66D2C641F2AD68A00DE8C93 /* SystemConfiguration.framework */; };
 		E66D2C671F2AD6CB00DE8C93 /* libz.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E66D2C661F2AD6CB00DE8C93 /* libz.1.dylib */; };
 		E66D2C691F2AD6E200DE8C93 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E66D2C681F2AD6E200DE8C93 /* libsqlite3.dylib */; };
 		E66D2C6B1F2AD6ED00DE8C93 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E66D2C6A1F2AD6ED00DE8C93 /* CoreTelephony.framework */; };
 		E66D2C6D1F2AD74200DE8C93 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E66D2C6C1F2AD74200DE8C93 /* libc++.tbd */; };
-		E66D2C701F2AD79300DE8C93 /* BYRWechatShare.m in Sources */ = {isa = PBXBuildFile; fileRef = E66D2C6F1F2AD79300DE8C93 /* BYRWechatShare.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E625C7FE1F2ADF4600639B6A /* BYRWechatShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYRWechatShare.h; sourceTree = "<group>"; };
+		E625C7FF1F2ADF4600639B6A /* BYRWechatShare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYRWechatShare.m; sourceTree = "<group>"; };
+		E625C8011F2ADF4600639B6A /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		E625C8021F2ADF4600639B6A /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		E625C8031F2ADF4600639B6A /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		E625C8041F2ADF4600639B6A /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
 		E66D2C3E1F2AD52500DE8C93 /* BYRWechatShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BYRWechatShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E66D2C421F2AD52500DE8C93 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E66D2C441F2AD52500DE8C93 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -33,17 +39,11 @@
 		E66D2C4D1F2AD52500DE8C93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E66D2C501F2AD52500DE8C93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E66D2C521F2AD52500DE8C93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E66D2C5C1F2AD5C400DE8C93 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
-		E66D2C5E1F2AD5C400DE8C93 /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
-		E66D2C5F1F2AD5C400DE8C93 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
-		E66D2C601F2AD5C400DE8C93 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
 		E66D2C641F2AD68A00DE8C93 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		E66D2C661F2AD6CB00DE8C93 /* libz.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.dylib; path = ../../../../usr/lib/libz.1.dylib; sourceTree = "<group>"; };
 		E66D2C681F2AD6E200DE8C93 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = ../../../../usr/lib/libsqlite3.dylib; sourceTree = "<group>"; };
 		E66D2C6A1F2AD6ED00DE8C93 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		E66D2C6C1F2AD74200DE8C93 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
-		E66D2C6E1F2AD79300DE8C93 /* BYRWechatShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYRWechatShare.h; sourceTree = "<group>"; };
-		E66D2C6F1F2AD79300DE8C93 /* BYRWechatShare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYRWechatShare.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,16 +53,45 @@
 			files = (
 				E66D2C6D1F2AD74200DE8C93 /* libc++.tbd in Frameworks */,
 				E66D2C6B1F2AD6ED00DE8C93 /* CoreTelephony.framework in Frameworks */,
+				E625C8061F2ADF4600639B6A /* libWeChatSDK.a in Frameworks */,
 				E66D2C691F2AD6E200DE8C93 /* libsqlite3.dylib in Frameworks */,
 				E66D2C671F2AD6CB00DE8C93 /* libz.1.dylib in Frameworks */,
 				E66D2C651F2AD68A00DE8C93 /* SystemConfiguration.framework in Frameworks */,
-				E66D2C611F2AD5C400DE8C93 /* libWeChatSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E625C7FC1F2ADF4600639B6A /* BYRWechatShare */ = {
+			isa = PBXGroup;
+			children = (
+				E625C7FD1F2ADF4600639B6A /* Lib */,
+				E625C8001F2ADF4600639B6A /* OpenSDK1.7.9_NoPay */,
+			);
+			path = BYRWechatShare;
+			sourceTree = "<group>";
+		};
+		E625C7FD1F2ADF4600639B6A /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				E625C7FE1F2ADF4600639B6A /* BYRWechatShare.h */,
+				E625C7FF1F2ADF4600639B6A /* BYRWechatShare.m */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		E625C8001F2ADF4600639B6A /* OpenSDK1.7.9_NoPay */ = {
+			isa = PBXGroup;
+			children = (
+				E625C8011F2ADF4600639B6A /* libWeChatSDK.a */,
+				E625C8021F2ADF4600639B6A /* WechatAuthSDK.h */,
+				E625C8031F2ADF4600639B6A /* WXApi.h */,
+				E625C8041F2ADF4600639B6A /* WXApiObject.h */,
+			);
+			path = OpenSDK1.7.9_NoPay;
+			sourceTree = "<group>";
+		};
 		E66D2C351F2AD52500DE8C93 = {
 			isa = PBXGroup;
 			children = (
@@ -83,7 +112,7 @@
 		E66D2C401F2AD52500DE8C93 /* BYRWechatShare */ = {
 			isa = PBXGroup;
 			children = (
-				E66D2C581F2AD54000DE8C93 /* BYRWechatShare */,
+				E625C7FC1F2ADF4600639B6A /* BYRWechatShare */,
 				E66D2C441F2AD52500DE8C93 /* AppDelegate.h */,
 				E66D2C451F2AD52500DE8C93 /* AppDelegate.m */,
 				E66D2C471F2AD52500DE8C93 /* ViewController.h */,
@@ -103,35 +132,6 @@
 				E66D2C421F2AD52500DE8C93 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		E66D2C581F2AD54000DE8C93 /* BYRWechatShare */ = {
-			isa = PBXGroup;
-			children = (
-				E66D2C5B1F2AD5C400DE8C93 /* OpenSDK1.7.9_NoPay */,
-				E66D2C5A1F2AD59100DE8C93 /* Lib */,
-			);
-			name = BYRWechatShare;
-			sourceTree = "<group>";
-		};
-		E66D2C5A1F2AD59100DE8C93 /* Lib */ = {
-			isa = PBXGroup;
-			children = (
-				E66D2C6E1F2AD79300DE8C93 /* BYRWechatShare.h */,
-				E66D2C6F1F2AD79300DE8C93 /* BYRWechatShare.m */,
-			);
-			name = Lib;
-			sourceTree = "<group>";
-		};
-		E66D2C5B1F2AD5C400DE8C93 /* OpenSDK1.7.9_NoPay */ = {
-			isa = PBXGroup;
-			children = (
-				E66D2C5C1F2AD5C400DE8C93 /* libWeChatSDK.a */,
-				E66D2C5E1F2AD5C400DE8C93 /* WechatAuthSDK.h */,
-				E66D2C5F1F2AD5C400DE8C93 /* WXApi.h */,
-				E66D2C601F2AD5C400DE8C93 /* WXApiObject.h */,
-			);
-			path = OpenSDK1.7.9_NoPay;
 			sourceTree = "<group>";
 		};
 		E66D2C631F2AD68A00DE8C93 /* Frameworks */ = {
@@ -220,7 +220,7 @@
 				E66D2C491F2AD52500DE8C93 /* ViewController.m in Sources */,
 				E66D2C461F2AD52500DE8C93 /* AppDelegate.m in Sources */,
 				E66D2C431F2AD52500DE8C93 /* main.m in Sources */,
-				E66D2C701F2AD79300DE8C93 /* BYRWechatShare.m in Sources */,
+				E625C8051F2ADF4600639B6A /* BYRWechatShare.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,6 +345,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/BYRWechatShare/OpenSDK1.7.9_NoPay",
+					"$(PROJECT_DIR)/BYRWechatShare/BYRWechatShare/OpenSDK1.7.9_NoPay",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = bupt.leelom.BYRWechatShare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -360,6 +361,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/BYRWechatShare/OpenSDK1.7.9_NoPay",
+					"$(PROJECT_DIR)/BYRWechatShare/BYRWechatShare/OpenSDK1.7.9_NoPay",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = bupt.leelom.BYRWechatShare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -385,6 +387,7 @@
 				E66D2C571F2AD52500DE8C93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
